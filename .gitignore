@@ -263,3 +263,4 @@ $RECYCLE.BIN/
 # Bluewaves
 .idea
 /web/modules/contrib
+/web/themes/contrib
