@@ -1,0 +1,48 @@
+uuid: c287e80e-5d5e-44df-b82a-f747b5774d45
+langcode: nl
+status: true
+dependencies:
+  module:
+    - block
+_core:
+  default_config_hash: ructO0IOsghR3CIbNd-0QfLTDiUo8gIJ7mB_nxSil4o
+id: block-layout
+label: 'Pagina blokindeling'
+module: block
+routes:
+  -
+    route_name: block.admin_display
+tips:
+  block-layout:
+    id: block-layout
+    plugin: text
+    label: Blokindeling
+    weight: 1
+    body: 'Blokken zijn stukken inhoud die weergegeven worden in een regio of gebied van de pagina (zoals de footer of zijbalk).'
+  place-block:
+    id: place-block
+    plugin: text
+    label: 'Blokken plaatsen'
+    weight: 2
+    selector: .button--small
+    body: 'Elk aangepast of bijgedragen blok kan in een regio geplaatst worden door op de knop <em>Blok plaatsen</em> te klikken. Met dezelfde knop kan ook een nieuw blok gemaakt worden.'
+  block-region:
+    id: block-region
+    plugin: text
+    label: Blok-regio
+    weight: 3
+    selector: .block-region-select
+    body: 'Assign or change the region of a block by clicking here. A dropdown list with all the regions will appear. You can place one block in multiple regions.'
+  configure-block:
+    id: configure-block
+    plugin: text
+    label: 'Blok configureren'
+    weight: 4
+    selector: .dropbutton-widget
+    body: 'Klik op ''Instellen'' om de inhoud van een blok te bewerken, de zichtbaarheid in te stellen of de plaatsing in het thema te wijzigen.'
+  custom-block-library:
+    id: custom-block-library
+    plugin: text
+    label: 'Aangepaste blokken-bibliotheek'
+    weight: 5
+    body: 'Het scherm blokindeling heeft ook een tab bovenaan om aangepaste blokken toe te voegen genaamd ''Aangepaste blokken-bibliotheek''. Deze tab is een link om aangepaste blokken toe te voegen.'

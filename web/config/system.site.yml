@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: nl
+uuid: 9ba54c36-182e-4fc2-8aec-717c6dfcc593
+name: Bluewaves
+mail: hello@smashingimpact.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: nl

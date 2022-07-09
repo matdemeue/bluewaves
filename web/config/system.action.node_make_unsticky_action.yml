@@ -1,0 +1,13 @@
+uuid: 5dc8f5dd-3336-4042-b078-e2594dcb6d48
+langcode: nl
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: lDM9mvIGAu8Sw8rt-uCO4Sr7yX5VPrDPxYcawkbKd6k
+id: node_make_unsticky_action
+label: 'Inhoud niet vastgeplakt bovenaan de lijst maken'
+type: node
+plugin: node_make_unsticky_action
+configuration: {  }
